@@ -2274,6 +2274,6 @@ article.result h3 a{color:#333333;}
 /* 2016 Modifications */
 
 /* Media Queries */
-@media screen and (min-width: 768px){
+@media only screen and (min-width: 768px){
   .search-form-left{ width:70%; float:left; margin-top:3%;}
 }
