@@ -2138,7 +2138,7 @@ article.result h3 a{color:#333333;}
 .quicks .ginput_container, .quicks .validation_error{width:100%!important; text-align:center;}
 .quicks .ginput_container input[type=file]{ background-color:#eaeaea; padding:10px;}
 .quicks .left_label, .quicks .gfield_description{padding:0px!important; margin:0px!important; text-align:center; width:100%!important; }
-.quicks input[type="submit"], .quicks button{background:url(img/submit-your-resume.png)!important; font-size:0px!important; width:300px; height:66px;}
+.quicks input[type="submit"], .quicks button{width:300px; height:66px;}
 
 #advance-search .wpjb-element-name-query{width:100%;  float:left; clear:none!important;}
 #advance-search .wpjb-element-name-location{width:49.3%;margin-right:1.4%; float:left;clear:none!important;}
