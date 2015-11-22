@@ -43,7 +43,14 @@ Template Name: Contact
 				<p><a href="<?php echo get_option("home"); ?>">Return to the homepage</a></p>
 			</article>
 		<?php } ?>
-	</div></div>
+	</div>
+
+	<div class="right-content">
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('contactmap-sidebar') ) :
+		endif; ?>
+	</div>
+
+	</div>
 <div class="bottom-content">
 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
 <div style='overflow:hidden;height:406px;width:100%;'><div id='gmap_canvas' style='height:406px;width:1920px;'></div>
