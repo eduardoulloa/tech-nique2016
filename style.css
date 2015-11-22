@@ -1866,7 +1866,8 @@ input[type="submit"],button{background: linear-gradient(to bottom, #458edd 0%, #
 .wpjb-grid{border:1px solid whitesmoke!important; padding:0px!important;}
 .wpjb-grid-head{border-bottom:5px solid whitesmoke!important;}
 
-.search-form{ width:70%; float:left;}
+.search-form, .search-form-left{ width:70%; float:left;}
+.search-form-left {margin-top: 3%;}
 .search-form img{cursor:pointer;}
 .search-box{background-color:#fff; cursor:pointer; padding:11px!important; border:0px!important;margin:13px 0px 13px 5px; width:270px; float:left; color:#000!important; font-size:12px;}
 .jcategory-list{display:none; position:absolute; background-color:#fafafa; height:200px; overflow-x:hidden; overflow-y: scroll; width:302px; margin-top:52px; margin-left:5px;}

@@ -16,7 +16,7 @@
 				
 				<div id="find-jobs">
 					<p>Find a Job</p>					
-			        <div class="search-form">            
+			        <div class="search-form-left">
 					<?php if ( ! dynamic_sidebar('job-search') ) : ?><?php endif; ?>
 					</div>          
 				</div>
